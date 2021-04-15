@@ -22,5 +22,44 @@
         </geometry>
       </visual>
     </link>
+   
+   <link name="lm_1">
+     <pose>-4 2 8.5 0 1.5707 1.5707</pose>
+      <visual name="visual">
+        <geometry>
+           <mesh>
+            <uri>model://marsyard_terrain/meshes/Waypiont1.dae</uri>
+            <scale>0.2 0.2 0.2</scale>
+          </mesh>
+        </geometry>
+       </visual>
+   </link>
+ <link name="lm_2">
+     <pose>-10 2 10.1 0 1.5707 1.5707</pose>
+      <visual name="visual">
+        <geometry>
+           <mesh>
+            <uri>model://marsyard_terrain/meshes/Waypiont2.dae</uri>
+            <scale>0.2 0.2 0.2</scale>
+          </mesh>
+        </geometry>
+       </visual>
+   </link>
+ <link name="lm_3">
+     <pose>-0.5 2 0 0 1.5707 1.5707</pose>
+      <visual name="visual">
+        <geometry>
+           <mesh>
+            <uri>model://marsyard_terrain/meshes/Waypiont3.dae</uri>
+            <scale>0.2 0.2 0.2</scale>
+          </mesh>
+        </geometry>
+       </visual>
+   </link>
+
+
   </model>
+   
+   
+
 </sdf>
